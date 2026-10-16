@@ -1,13 +1,13 @@
 {% set name = "amplitude-analytics" %}
-{% set version = "1.2.3" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/amplitude_analytics-{{ version }}.tar.gz
-  sha256: 4c9525847c391c19675d6e026f4601c27204ffeec71cb92252770d84d4538404
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/amplitude_analytics-{{ version }}.tar.gz
+  sha256: 47e685b5b49c95997cae059f7277b4792dbefe11c170e165d67c6a3f785b8e98
 
 build:
   noarch: python
